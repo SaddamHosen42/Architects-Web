@@ -6,3 +6,74 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+/* common styles */
+.bg-secondary {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.display-flex {
+  display: flex;
+}
+.section-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(114, 114, 114);
+}
+.btn-primary {
+  background-color: rgb(255, 144, 14);
+  color: white;
+  padding: 20px 25px;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+/* navbar styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link{
+  text-decoration: none;
+  color:rgb(66, 66, 66);
+  font-size: 18px;
+  font-weight: 500;
+}
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner-content{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner-title{
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-img{
+  width: 100%;
+}
+
+
+
+
+
+/* responsive media query */
+@media screen and (max-width:576px){
+  .navbar, .nav-links{
+    flex-direction: column;
+  }
+}
