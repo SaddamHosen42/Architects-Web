@@ -176,6 +176,22 @@ main>section {
   filter: grayscale(100%);
 }
 
+/* footer section */
+.footer-content {
+  max-width: 1440px;
+  height: 100px;
+  margin: 100px auto;
+  border-radius: 8px;
+  background: rgb(255, 244, 231);
+}
+
+.footer-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 38px;
+}
+
 /* responsive media query */
 
 /* small device */
